@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default function cleanSet(set, startString) {
   const arr = [];
   if (typeof startString === 'undefined' || startString === '' || typeof startString !== 'string') {

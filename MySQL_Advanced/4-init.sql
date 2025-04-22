@@ -1,4 +1,4 @@
--- Initial Setup
+-- Initial
 DROP TABLE IF EXISTS items;
 DROP TABLE IF EXISTS orders;
 
@@ -12,5 +12,4 @@ CREATE TABLE IF NOT EXISTS orders (
     number int NOT NULL
 );
 
--- Insert initial data into items table
-INSERT INTO items (name) VALUES ("apple"), ("pineapple"),
+INSERT INTO items (name) VALUES ("apple"), ("pineapple"), ("pear");

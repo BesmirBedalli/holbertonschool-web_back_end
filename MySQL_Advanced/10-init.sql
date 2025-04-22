@@ -1,9 +1,9 @@
--- Create the table and insert data if it's missing
+-- Initial
 DROP TABLE IF EXISTS numbers;
 
 CREATE TABLE IF NOT EXISTS numbers (
-    a INT DEFAULT 0,
-    b INT DEFAULT 0
+    a int default 0,
+    b int default 0
 );
 
 INSERT INTO numbers (a, b) VALUES (10, 2);

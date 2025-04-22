@@ -13,3 +13,4 @@ INSERT INTO users (email, name) VALUES ('bob@dylan.com', 'Jean');  -- Should fai
 
 -- Show the final state of the users table
 SELECT * FROM users;
+
